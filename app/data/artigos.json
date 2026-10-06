@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Como criar o hábito de leitura no dia a dia",
+    "author": "Marina Costa",
+    "publishedAt": "2026-09-18",
+    "category": "Hábitos",
+    "description": "Ideias simples para encaixar a leitura na rotina e transformar poucos minutos por dia em um hábito duradouro.",
+    "content": [
+      "Ler com frequência não depende de encontrar horas livres na agenda. Na maioria das vezes, o que faz diferença é reservar um espaço pequeno e consistente para os livros.",
+      "Comece com uma meta fácil de cumprir: dez minutos antes de dormir, algumas páginas no transporte ou um capítulo durante o intervalo. Quando a meta cabe na rotina, fica mais simples repeti-la.",
+      "Deixe o livro à vista e escolha uma leitura que desperte curiosidade. O prazer de continuar é um incentivo mais forte do que qualquer lista de obrigações.",
+      "E se um dia não der certo, recomece no seguinte sem tentar compensar. Um hábito saudável cresce com constância, não com cobrança."
+    ]
+  },
+  {
+    "title": "Um guia prático para organizar suas ideias",
+    "author": "Rafael Mendes",
+    "publishedAt": "2026-09-10",
+    "category": "Criatividade",
+    "description": "Conheça um processo leve para tirar ideias da cabeça, encontrar conexões e decidir qual será o próximo passo.",
+    "content": [
+      "Uma ideia anotada deixa de depender da memória. Tenha um lugar único para registrar pensamentos, perguntas e referências, sem se preocupar em organizá-los no momento em que surgem.",
+      "Depois, reserve alguns minutos para revisar suas notas. Agrupe assuntos parecidos, dê um título para cada conjunto e destaque o que ainda parece interessante.",
+      "Para transformar uma possibilidade em ação, escreva qual é o menor próximo passo. Uma tarefa concreta, como pesquisar uma referência ou rascunhar um parágrafo, é mais fácil de começar do que um objetivo abstrato.",
+      "Esse processo não precisa ser perfeito. O importante é criar espaço para as ideias evoluírem e manter visível aquilo que merece sua atenção."
+    ]
+  },
+  {
+    "title": "Pequenas pausas, grandes mudanças",
+    "author": "Camila Oliveira",
+    "publishedAt": "2026-08-29",
+    "category": "Bem-estar",
+    "description": "Entenda como pausas breves ao longo do dia podem ajudar a recuperar o foco e cuidar melhor da sua energia.",
+    "content": [
+      "Em dias cheios, é comum tratar qualquer pausa como tempo perdido. Mas interromper uma atividade por alguns instantes pode ajudar a voltar a ela com mais clareza.",
+      "Uma pausa não precisa de planejamento: levante-se, alongue o corpo, olhe pela janela ou tome um copo de água sem acompanhar outra tela ao mesmo tempo.",
+      "Observe como você se sente antes e depois. Esse intervalo consciente ajuda a perceber os sinais de cansaço e a escolher o ritmo mais adequado para continuar.",
+      "Experimente inserir pausas curtas entre tarefas. Com o tempo, esses pequenos intervalos podem tornar a rotina mais sustentável."
+    ]
+  }
+]

@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Caderno Aberto
 
-## Getting Started
+Blog desenvolvido com Next.js App Router. A página inicial lista artigos de um
+JSON local, e cada artigo tem uma rota própria com conteúdo renderizado no
+servidor e metadados de SEO gerados a partir dos dados do artigo.
 
-First, run the development server:
+## Executar localmente
+
+Instale as dependências e inicie o servidor de desenvolvimento:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Artigos e rotas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Os artigos ficam em `app/data/artigos.json`. Os slugs são derivados dos títulos
+em `app/lib/artigos.ts`. A rota dinâmica `app/artigos/[slug]/page.tsx` exporta
+`generateStaticParams` e usa `force-static` para gerar páginas e metadados
+durante o build.
 
-## Learn More
+Para adicionar um artigo, inclua no JSON título, autor, data de publicação,
+categoria, descrição e conteúdo. A rota e os metadados serão gerados a partir
+do título e da descrição.
 
-To learn more about Next.js, take a look at the following resources:
+## Publicar na Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Importe o repositório na [Vercel](https://vercel.com/new) e mantenha os comandos
+padrão do Next.js para build e deploy. Para validar localmente antes de
+publicar:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+```
